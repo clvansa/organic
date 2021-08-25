@@ -29,6 +29,10 @@ const Logo = styled.h1`
   padding-left: 20px;
   font-size: 4rem;
   font-weight: 600;
+
+  @media (max-width: 420px) {
+    font-size: 3rem;
+  }
 `;
 
 const ListMenu = styled.ul`
@@ -46,7 +50,7 @@ const ListItem = styled.li`
   cursor: pointer;
   letter-spacing: 1px;
   @media (max-width: 420px) {
-    font-size: 14px;
+    font-size: 13px;
   }
 `;
 

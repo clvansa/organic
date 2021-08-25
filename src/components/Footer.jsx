@@ -102,6 +102,10 @@ const Input = styled.input`
   &:focus {
     outline: none;
   }
+
+  @media (max-width: 450px) {
+    width: 250px;
+  }
 `;
 
 const ListMenu = styled.ul`
