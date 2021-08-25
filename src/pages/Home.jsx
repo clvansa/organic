@@ -18,7 +18,7 @@ const Home = () => {
       </Box>
       <Box>
         <Review />
-        <Image src="https://www.aldi.lu/content/aldi/luxembourg/promotions/source-localenhancement/2019/2019-01/2019-01-02/vast_assortiment/8276/1/0/_jcr_content/assets/imported-images/BILD_INTERNET1/8276-tomaten_2015.png/_jcr_content/renditions/opt.1250w.png.res/1628730385368/opt.1250w.png" />
+        <Image src="/tomaten.png" />
       </Box>
       <Box>
         <Quality />
@@ -68,7 +68,7 @@ const Box = styled.div`
     transition: 1s all;
     flex-direction: column;
 
-    background-image: url("https://www.pngitem.com/pimgs/m/492-4925862_wheat-vector-free-png-image-wheat-clipart-transparent.png");
+    background-image: url("/wheat.png");
     background-repeat: no-repeat;
   }
   :nth-child(2) {
